@@ -24,6 +24,7 @@ function drawScore(items) { //finish
     score_board.appendChild(head);
     // Clear all elements
     let rank = 1;
+
     for (const item of items["scoreBoard"]) {
         if(rank == 11){
             break;
